@@ -1,0 +1,12 @@
+# Normalize line endings — silences the LF/CRLF warnings on Windows.
+* text=auto eol=lf
+
+# Binary assets (don't touch line endings)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.woff binary
+*.woff2 binary
+*.pdf binary
