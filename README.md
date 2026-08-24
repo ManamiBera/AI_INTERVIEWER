@@ -6,10 +6,13 @@
 
 Upload your resume → get an ATS score → fix it → practice interviews → track your progress.
 
+### 🔗 [**Live Demo → ai-interviewer-vert-phi.vercel.app**](https://ai-interviewer-vert-phi.vercel.app)
+
 ![Next.js](https://img.shields.io/badge/Next.js-14-000000?logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-06B6D4?logo=tailwindcss&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-Auth%20%2B%20DB-3ECF8E?logo=supabase&logoColor=white)
+![Deployed on Vercel](https://img.shields.io/badge/Deployed-Vercel-000000?logo=vercel)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 </div>
@@ -145,10 +148,15 @@ See [`CLAUDE.md`](CLAUDE.md) for deeper architecture notes.
 
 ## ☁️ Deployment
 
-Deploy free on **[Vercel](https://vercel.com)**:
-1. Import the GitHub repo.
-2. Add the three environment variables from `.env.local`.
-3. Deploy. (Add your deployed URL to Supabase → Authentication → URL Configuration.)
+This app is **live on Vercel** at **[ai-interviewer-vert-phi.vercel.app](https://ai-interviewer-vert-phi.vercel.app)** and redeploys automatically on every push to `main`.
+
+To deploy your own copy free on **[Vercel](https://vercel.com)**:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ManamiBera/AI_INTERVIEWER)
+
+1. Import the GitHub repo (or click the button above).
+2. Add the environment variables from `.env.local` (Supabase URL + anon key; Gemini key optional).
+3. Deploy — then add your deployed URL to Supabase → Authentication → URL Configuration.
 
 ---
 
