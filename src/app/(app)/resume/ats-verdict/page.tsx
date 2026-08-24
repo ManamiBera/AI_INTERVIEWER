@@ -20,7 +20,7 @@ export default function ATSVerdictPage() {
   if (!analysis) {
     return (
       <>
-        <PageHeader eyebrow="Report Alpha · The Final Word" title="ATS Verdict" subtitle="Your composite recruiter-readiness score." />
+        <PageHeader eyebrow="AI Interviewer · The Final Word" title="ATS Verdict" subtitle="Your composite recruiter-readiness score." />
         <EmptyState icon={FileText} title="No analysis yet" description="Upload your resume and analyze it to generate your ATS verdict." action={<Button onClick={() => router.push("/resume/overview")}>Upload &amp; Analyze</Button>} />
       </>
     );
@@ -46,7 +46,7 @@ export default function ATSVerdictPage() {
   return (
     <>
       <PageHeader
-        eyebrow="Report Alpha · The Final Word"
+        eyebrow="AI Interviewer · The Final Word"
         title="ATS Verdict"
         subtitle="Your composite recruiter-readiness score, broken down by weighted category with an AI-generated executive summary."
         actions={

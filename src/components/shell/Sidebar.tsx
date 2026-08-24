@@ -41,9 +41,9 @@ export function Sidebar({ onExportClick, onNavigate }: SidebarProps) {
             <FileSpreadsheet className="h-4 w-4 text-[#04141C]" />
           </div>
           <div className="min-w-0">
-            <div className="text-sm font-semibold text-text-primary truncate">Report Alpha</div>
+            <div className="text-sm font-semibold text-text-primary truncate">AI Interviewer</div>
             <div className="text-[10px] uppercase tracking-widest text-accent/80 font-semibold">
-              Resume Intelligence
+              Resume &amp; Interview Prep
             </div>
           </div>
         </Link>

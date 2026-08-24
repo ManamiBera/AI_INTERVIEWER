@@ -100,7 +100,7 @@ export default function OverviewPage() {
   return (
     <>
       <PageHeader
-        eyebrow="Report Alpha"
+        eyebrow="AI Interviewer"
         title="Resume Intelligence"
         subtitle="Refine your professional narrative with our editorial-grade ATS analysis engine."
         actions={aiSource === "gemini" ? <Badge tone="cyan"><Zap className="h-3 w-3" /> Gemini AI</Badge> : <Badge tone="neutral">Offline mode</Badge>}
