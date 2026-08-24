@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-**The Editorial Intelligence** — an AI-powered resume analysis + interview preparation platform (Next.js 14 App Router, TypeScript, Tailwind). Dark navy/cyan "premium SaaS" aesthetic. Two workspaces: **Resume Intelligence** (`/resume/*`) and **Interview Prep** (`/interview/*`), plus top-level pages (dashboard, history, templates, pricing, profile, settings, notifications, support).
+**AI Interviewer** — an AI-powered resume analysis + interview preparation platform (Next.js 14 App Router, TypeScript, Tailwind). Dark navy/cyan "premium SaaS" aesthetic. Two workspaces: **Resume Intelligence** (`/resume/*`) and **Interview Prep** (`/interview/*`), plus top-level pages (dashboard, history, templates, pricing, profile, settings, notifications, support).
 
 Design goal: every nav item, button, and page is functional — no "Coming Soon" placeholders. Every page has loading/empty/error states.
 

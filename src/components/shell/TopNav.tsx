@@ -40,7 +40,7 @@ export function TopNav({ onOpenMobileNav, onOpenSearch, onOpenNotifications }: T
             <span className="text-[#04141C] font-bold text-sm">E</span>
           </div>
           <span className="text-sm md:text-base font-semibold text-text-primary tracking-tight hidden sm:inline">
-            The Editorial Intelligence
+            AI Interviewer
           </span>
         </Link>
 

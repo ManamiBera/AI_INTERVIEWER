@@ -68,7 +68,7 @@ export default function DashboardPage() {
       <PageHeader
         eyebrow="Welcome back, Aditya"
         title="Your career, intelligently prepared."
-        subtitle="The Editorial Intelligence analyzes your resume against real recruiter signals and coaches you through interviews with role-aware precision."
+        subtitle="AI Interviewer analyzes your resume against real recruiter signals and coaches you through interviews with role-aware precision."
         actions={
           <>
             <Button

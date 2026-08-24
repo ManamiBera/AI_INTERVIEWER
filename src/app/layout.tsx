@@ -10,9 +10,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "The Editorial Intelligence — AI Resume & Interview Prep",
+  title: "AI Interviewer — Resume & Interview Prep",
   description:
-    "Refine your professional narrative with an editorial-grade ATS analysis engine and prepare for interviews with an AI-powered coach.",
+    "Analyze your resume with an AI-grade ATS engine and prepare for interviews with an AI-powered coach.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

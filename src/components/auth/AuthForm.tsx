@@ -43,7 +43,7 @@ export function AuthForm({ mode }: { mode: Mode }) {
           router.push("/login");
           return;
         }
-        toast.success("Welcome to The Editorial Intelligence!");
+        toast.success("Welcome to AI Interviewer!");
         router.push(next);
         router.refresh();
       } else {
@@ -70,7 +70,7 @@ export function AuthForm({ mode }: { mode: Mode }) {
           <div className="h-10 w-10 rounded-lg bg-cyan-gradient grid place-items-center shadow-glow-sm">
             <FileSpreadsheet className="h-5 w-5 text-[#04141C]" />
           </div>
-          <span className="text-lg font-semibold text-text-primary tracking-tight">The Editorial Intelligence</span>
+          <span className="text-lg font-semibold text-text-primary tracking-tight">AI Interviewer</span>
         </div>
 
         <Card variant="glow" className="p-8">
